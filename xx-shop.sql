@@ -267,9 +267,9 @@ CREATE TABLE `seller`  (
 -- ----------------------------
 -- Records of seller
 -- ----------------------------
-INSERT INTO `seller` VALUES (1, '大王', '111111', '123456@qq.com', '12345678911', '广州', '良好', NULL, '2023-12-13');
+INSERT INTO `seller` VALUES (1, '大王', '111111', '123456@qq.com', '12345678911', '苏州', '良好', NULL, '2023-12-13');
 INSERT INTO `seller` VALUES (2, '二蛋', '12412', '123456@qq.com', '18959294363', '苏州', '良好', '2019-10-22', '2023-12-13');
-INSERT INTO `seller` VALUES (4, 'ZHIHUI JIN', '123123', NULL, '15370764634', '北京', NULL, '2020-05-21', '2023-12-13');
+INSERT INTO `seller` VALUES (4, 'ZHIHUI JIN', '123123', NULL, '15370764634', '苏州', NULL, '2020-05-21', '2023-12-13');
 
 -- ----------------------------
 -- Table structure for shop_order
@@ -336,8 +336,8 @@ CREATE TABLE `xx_user`  (
 -- ----------------------------
 -- Records of xx_user
 -- ----------------------------
-INSERT INTO `xx_user` VALUES (23, '红太狼', '123456', 'mm', '2809980016@qq.com', '18680246112', '广东省广州市华南理工大学', NULL, NULL, '2023-12-13');
-INSERT INTO `xx_user` VALUES (24, '灰太狼', '123123', '张三', '2809980016@qq.com', '15370764636', '广东省广州市华南理工大学', NULL, NULL, '2023-12-13');
+INSERT INTO `xx_user` VALUES (23, '红太狼', '123456', 'mm', '15283048926@qq.com', '15283048926', '广东省广州市华南理工大学', NULL, NULL, '2023-12-13');
+INSERT INTO `xx_user` VALUES (24, '灰太狼', '123123', '张三', '15283048926@qq.com', '15370764636', '广东省广州市华南理工大学', NULL, NULL, '2023-12-13');
 INSERT INTO `xx_user` VALUES (25, '李四', '123456', '暴风少年', NULL, '15283048923', NULL, NULL, '2023-12-13', '2023-12-13');
 
 SET FOREIGN_KEY_CHECKS = 1;
